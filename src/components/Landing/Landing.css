@@ -1,0 +1,48 @@
+.Landing {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+.Landing .landing_heading {
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Monoton', cursive;
+    color: var(--text-color-alpha);
+    line-height: 1.2;
+    z-index: 2;
+    opacity: 1;
+}
+.Landing .landing_bottom_image {
+    background-image: url('../../assets/illustrations/light_waves.png');
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    z-index: 1;
+}
+
+@media (max-width: 320px) {
+    .Landing .landing_heading {
+        font-size: 30px;
+    }
+} 
+@media (min-width: 640px) {
+    .Landing .landing_heading {
+        font-size: 100px;
+    }
+} 
+@media (min-width: 750px) {
+    .Landing {
+        height: 100vh;
+    }
+    .Landing .landing_heading {
+        font-size: 120px;
+    }
+}
+@media (min-width: 840px) {
+    .Landing .landing_heading {
+        font-size: 140px;
+    }
+}

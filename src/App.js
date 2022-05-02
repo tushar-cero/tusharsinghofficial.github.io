@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from "./pages/Home/Home";
+import Team from "./pages/Team/Team";
+import Speakers from "./pages/Speakers/Speakers";
+import TermsConditions from "./pages/TermsAndConditions/TermsConditions";
+import Archive from "./pages/Archive/Archive";
+import Error from "./pages/Error/Error";
+
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <ScrollToTop>
+                <Routes>
+                    <Route exact path="/" element={<Home></Home>}></Route>
+                    <Route exact path="/home" element={<Home></Home>}></Route>
+                    <Route exact path="/speakers" element={<Speakers></Speakers>}></Route>
+                    <Route exact path="/team" element={<Team></Team>}></Route>
+                    <Route exact path="/archive" element={<Archive></Archive>}></Route>
+                    <Route exact path="/terms-and-condition" element={<TermsConditions></TermsConditions>}></Route>
+                    <Route exact path="/error" element={<Error></Error>}></Route>
+                    <Route path="*" element={<Error/>}/> 
+                </Routes>
+            </ScrollToTop>
+        </Router>
+    );
 }
 
 export default App;

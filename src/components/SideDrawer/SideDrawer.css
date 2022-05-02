@@ -1,0 +1,110 @@
+nav#NaviationSideDrawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    z-index: 5;
+    background-color: var(--dark-background-alpha);
+    color: var(--text-color-alpha);
+    transform: translateX(200%);
+    transition: all 0.35s ease-out;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav#NaviationSideDrawer.openNavbar{
+    transform: translateX(0);
+    transition: all 0.4s ease-in;
+}
+nav#NaviationSideDrawer ul {
+    text-align: center;
+    font-size: 24px;
+
+}
+nav#NaviationSideDrawer ul li {
+    padding: 16px;
+    margin: 24px 0;
+    position: relative;
+}
+
+nav#NaviationSideDrawer .close_btn {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    font-size: 30px;
+    padding: 24px;
+    margin: 18px 30px;
+    color: var(--text-color-alpha);
+    background: transparent;
+}
+nav#NaviationSideDrawer ul li a:hover ,
+nav#NaviationSideDrawer .close_btn:hover {
+    color: var(--red-background-alpha);
+    transition: all 0.35s ease-in;
+}
+nav#NaviationSideDrawer ul li a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: var(--red-background-alpha);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+nav#NaviationSideDrawer ul li a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.show_720px {
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    nav#NaviationSideDrawer .close_btn {
+        right: 0;
+    }
+}
+@media (max-width: 720px) {
+    nav#NaviationSideDrawer {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border-radius: 0px;;
+    }
+    .show_720px {
+        display: block;
+    }
+}
+@media (max-width: 800px) {    
+    nav#NaviationSideDrawer ul {
+        font-size: 20px;
+    }
+    nav#NaviationSideDrawer ul li {
+        padding: 16px;
+        margin: 24px 0;
+    }
+}
+@media (max-width: 720px) {    
+    nav#NaviationSideDrawer ul li {
+        margin: 18px 0;
+    }
+}
+@media (max-width: 640px) {
+    nav#NaviationSideDrawer .close_btn {
+        padding: 16px;
+        margin: 16px;
+    }
+    nav#NaviationSideDrawer ul {
+        font-size: 20px;
+    }
+    nav#NaviationSideDrawer ul li {
+        padding: 16px;
+        margin: 16px 0;
+    }
+}

@@ -1,0 +1,113 @@
+.Speakers_Coming_Soon {
+    height: 100vh;
+    width: 100%;
+
+    background-image: url('../../assets/background_images/coming_soon.png');
+}
+.Speakers_Coming_Soon .speakers_coming_soon_container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.Speakers_Coming_Soon .speakers_coming_soon_container p {
+    text-align: center;
+    font-size: 120px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    
+    /* background: linear-gradient(45deg, #da5889,#dd7459, #2687ea, #90e395);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; */
+}
+
+@media (max-width: 900px) {
+    .Speakers_Coming_Soon .speakers_coming_soon_container p {
+        font-size: 100px;
+    }
+}
+@media (max-width: 480px) {
+    .Speakers_Coming_Soon .speakers_coming_soon_container p {
+        font-size: 60px;
+    }
+}
+
+.Speakers_Showcase {
+    padding: 100px 24px;
+}
+.Speakers_Showcase .speaker_card {
+    max-width: 960px;
+    width: auto;
+    height: 480px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #2E22AB 0%, #E54C9C 100%);
+    padding: 30px;
+    margin: 100px auto;
+}
+.Speakers_Showcase .speaker_card .speaker_card_container {
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_image {
+    border-radius: 24px 0 0 24px;
+}
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info {
+    padding: 24px 16px 16px 16px;
+}
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 16px 0 16px 0;
+}
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h3 {
+    font-size: 18px;
+    color: var(--text-color-primary);
+}
+
+@media (max-width: 860px) {
+    .Speakers_Showcase .speaker_card {
+        max-width: 360px;
+        height: auto;
+    }
+    .Speakers_Showcase .speaker_card .speaker_card_container {
+        border-radius: 16px;
+        grid-auto-flow: dense;
+        grid-template-columns: 1fr;
+    }
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_image {
+        border-radius: 16px 16px 0 0;
+        width: 100%;
+        height: 300px;
+    }
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h1 {
+        font-size: 36px;
+        font-weight: 300;
+        padding: 16px 0;
+    }
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h2 {
+        font-size: 18px;
+        padding-bottom: 16px;
+    }
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h3 {
+        font-size: 16px;
+    }
+}

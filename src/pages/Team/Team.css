@@ -1,0 +1,72 @@
+.Team {
+    padding: 100px 0;
+}
+.Team section {
+    padding: 48px;
+}
+.Team section h2 {
+    font-size: 24px;
+    padding-bottom: 48px;
+}
+.Team section .team_member_template {
+    height: 420px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.01);
+    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.1);
+    margin: 24px;
+}
+.Team section .team_member_template .team_member_template_background_image_container {
+    background-image: url('../../assets/background_images/team_frame_background.jpeg');
+    height: 160px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.Team section .team_member_template .team_member_template_image {
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.Team section .team_member_template .team_member_template_image .team_member_template_image_member {
+    position: absolute;
+    top: -120px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    border: 3px solid var(--border-color-white-alpha);
+    border-radius: 50%;
+}
+.Team section .team_member_template .team_member_template_info {
+    text-align: center;
+    height: 120px;
+    width: 100%;
+}
+.Team section .team_member_template .team_member_template_info .team_member_template_info_name {
+    font-size: 24px;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+.Team section .team_member_template .team_member_template_info .team_member_template_info_position {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--red-background-alpha);
+}
+.Team section .team_member_template .team_member_template_social_media {
+    height: 60px;
+    width: 100%;
+    font-size: 24px;
+}
+.Team section .team_member_template .team_member_template_social_media div a i {
+    font-size: 24px;
+}
+.Team section .team_member_template .flex_space_evenly {
+    align-items: start;
+}
+
+@media (max-width: 720px) {
+    .Team section .team_member_template {
+        margin: 24px 0;
+    }
+}

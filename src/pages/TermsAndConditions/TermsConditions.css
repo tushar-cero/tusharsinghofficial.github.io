@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.TermsAndConditions {
+    color: var(--white-color);
+    padding: 48px 0;
+}
+.TermsAndConditions .tnc-container {
+    max-width: 1080px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: 0 auto;
+}
+.TermsAndConditions .tnc-container section {
+    padding: 16px;
+    border-bottom: var(--border-color-dark-alpha) 1px solid;
+}
+.TermsAndConditions .tnc-container section .policy-header {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--red-background-alpha);
+    padding: 24px 0px;
+    font-family: 'Rubik', sans-serif;
+}
+.TermsAndConditions .tnc-container section h3 {
+    font-size: 21px;
+    padding: 18px 0px;
+}
+.TermsAndConditions .tnc-container section p{
+    font-size: 16px;
+    padding: 16px 0px;
+}
+.TermsAndConditions .tnc-container section ul,
+.TermsAndConditions .tnc-container section ol {
+    font-size: 16px;
+    padding: 16px 0 16px 28px;
+}
+.TermsAndConditions .tnc-container section ul li,
+.TermsAndConditions .tnc-container section ol li {
+    padding: 5px 0;
+}
+.TermsAndConditions .tnc-container section a{
+    text-decoration: underline;
+}
+
+@media (min-width: 480px) {
+    .TermsAndConditions .tnc-container section .policy-header {
+        font-size: 36px;
+    }
+    .TermsAndConditions .tnc-container section h3 {
+        font-size: 28px;
+    }
+    .TermsAndConditions .tnc-container section p,
+    .TermsAndConditions .tnc-container section ul,
+    .TermsAndConditions .tnc-container section ol {
+        font-size: 18px;
+    }
+}
+@media (min-width: 720px) {
+    .TermsAndConditions .tnc-container section .policy-header {
+        font-size: 42px;
+        text-align: center;
+    }
+    .TermsAndConditions .tnc-container section h3 {
+        font-size: 30px;
+    }
+}
+@media (min-width: 1080px) {
+    .TermsAndConditions .tnc-container section .policy-header {
+        font-size: 42px;
+    }
+}

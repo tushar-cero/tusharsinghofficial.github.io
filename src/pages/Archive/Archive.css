@@ -1,0 +1,348 @@
+.archive_heading {
+    font-size: 48px;
+    color: var(--red-background-alpha);
+    padding-bottom: 100px;
+}
+@media (max-width: 720px) {
+    .archive_heading {
+        font-size: 30px;
+    }
+    .Archive_Team section h2 {
+        font-size: 24px;
+    }
+}
+
+
+/* ---------- Showcase ---------- */
+
+
+.Archive_Showcase {
+    background-image: url('../../assets/background_images/transending_boundaries.jpeg');
+    height: 100vh;
+    width: 100%;
+}
+.Archive_Showcase .archive_showcase_container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Archive_Showcase .archive_showcase_container h1 {
+    font-size: 36px;
+    padding-bottom: 36px;
+}
+.Archive_Showcase .archive_showcase_container p {
+    font-size: 22px;
+    padding-inline: 16px;
+}
+
+
+/* ---------- Speakers ---------- */
+
+
+.Archive_Speakers {
+    padding: 100px 0;
+}
+.Archive_Speakers .archive_speaker_template {
+    position: relative;
+    height: 400px;
+    width: 360px;
+}
+.Archive_Speakers .archive_speaker_template .behind_frame {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;;
+    border: 3px solid var(--border-color-dark-alpha);
+    z-index: 1;
+    height: 90%;
+    width: 100%;
+
+    background-image: url('../../assets/background_images/archive_frame_background_beta.jpeg');
+}
+.Archive_Speakers .archive_speaker_template .front_frame {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border: 3px solid var(--border-color-white-alpha);
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    z-index: 2;
+    text-align: center;
+}
+.Archive_Speakers .archive_speaker_template .front_frame .speaker_image {
+    margin: 0 auto 16px auto;
+    height: 180px;
+    width: 180px;
+}
+.Archive_Speakers .archive_speaker_template .front_frame .speaker_name {
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+.Archive_Speakers .archive_speaker_template .front_frame .speakers_profession {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    color: var(--red-background-alpha);
+}
+
+
+
+/* ---------- Team ---------- */
+
+
+
+.Archive_Team {
+    padding: 100px 0;
+}
+.Archive_Team section {
+    padding: 80px 0;
+}
+.Archive_Team section h2 {
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+.Archive_Team section .archive_team_card {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 360px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+.Archive_Team section .archive_team_card .card_casing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 4px;
+    width: 160px;
+    border-radius: 0 0 2px 2px;
+    background-color: var(--red-background-alpha);
+}
+.Archive_Team section .archive_team_card .archive_team_card_image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto 30px auto;
+}
+.Archive_Team section .archive_team_card .archive_team_card_name {
+    font-size: 20px;
+    font-weight: 700;
+}
+.Archive_Team section .archive_team_card .archive_team_card_position {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--red-background-alpha);
+}
+
+
+/* .archive_heading {
+    padding-top: 72px;
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-color-gamma);
+}
+
+.Archive_Speakers .archive_speakers_grid,
+.Archive_Team .archive_team_grid {
+    width: 100%;
+    height: 100%;
+    gap: 16px;
+    padding-top: 100px;
+} */
+
+
+
+/* ---------- Shoecase ---------- *
+
+
+
+.Archive_Showcase {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/background_images/transending_boundaries.jpeg');
+    color: var(--text-color-alpha);
+}
+.Archive_Showcase::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /*higher the z-index, closer it is to you*
+    background: rgba(0, 0, 0, 0.6);
+}
+.Archive_Showcase .container {
+    position: relative;
+    z-index: 2;
+}
+.Archive_Showcase .archive_showcase_heading {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 24px 0;
+}
+.Archive_Showcase .archive_showcase_content {
+    font-size: 20px;
+    padding: 24px 24px 0 24px;
+}
+
+@media (min-width: 480px) {
+    .Archive_Showcase .archive_showcase_heading {
+        font-size: 48px;
+    }
+    .Archive_Showcase .archive_showcase_content {
+        font-size: 24px;
+    }    
+}
+@media (min-width: 600px) {
+    .Archive_Showcase .archive_showcase_heading {
+        font-size: 60px;
+    }
+    .Archive_Showcase .archive_showcase_content {
+        padding: 36px 24px 0 36px;
+    }
+}
+@media (min-width: 720px) {
+    .Archive_Showcase .archive_showcase_heading {
+        font-size: 72px;
+    }
+    .Archive_Showcase .archive_showcase_content {
+        padding: 48px 24px 0 48px;
+    }
+}
+
+
+* ---------- Speakers ---------- *
+
+
+
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template {
+    display: block;
+    width: 320px;
+}
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_image_box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+}
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_image_box .archive_speakers_grid_template_image_box_image {
+    position: absolute;
+    z-index: 2;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+}
+
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_image_box .aquib_wani {
+    background-image: url('../../assets/speakers/aquib_wani.png');
+} 
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_image_box .apurva_joshi {
+    background-image: url('../../assets/speakers/apurva_joshi.png');
+} 
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_image_box .kopal_nathani {
+    background-image: url('../../assets/speakers/kopal_nathani.jpeg');
+    border-radius: 8px;
+} 
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_image_box .rj_kabir {
+    background-image: url('../../assets/speakers/rj_kabir.jpeg');
+} 
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_image_box .suprabha_seshan {
+    background-image: url('../../assets/speakers/suprabha_seshan.png');
+} 
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_image_box .archive_speakers_grid_template_image_box_circle {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: var(--red-background-dark);
+}
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_info {
+    position: relative;
+    top: -90px;
+    left: 0;
+    min-width: 300px;
+    height: 320px;
+    color: var(--white-color);
+    background-color: var(--red-background-dark);
+    padding: 160px 24px 24px 24px;
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_info_name {
+    font-size: 24px;
+    font-weight: 700;
+}
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_info_playbutton {
+    text-align: right;
+}
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_info_playbutton a{
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    padding: 14px 24px;
+    font-weight: 800;
+    border-radius: 24px;
+    transform: translateY(0);
+}
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_info_playbutton:hover{
+    transform: translateY(-4px);
+    transition: all 0.35s ease;
+}
+.Archive_Speakers .archive_speakers_grid .archive_speakers_grid_template_info_profession {
+    color: var(--white-color-tertiary);
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+
+
+* ---------- Team ---------- *
+
+
+
+.Archive_Team {
+    padding-bottom: 100px;
+}
+.Archive_Team .archive_team_grid .archive_team_grid_template {
+    padding: 24px;
+    margin: 24px;
+    background-color: var(--dark-background-tertiary);
+    border-radius: 24px;
+}
+.Archive_Team .archive_team_grid .archive_team_grid_template .archive_team_grid_template_image,
+.Archive_Team .archive_team_grid .archive_team_grid_template .archive_team_grid_template_image img {
+    height: 200px;
+    width: 200px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+}
+.Archive_Team .archive_team_grid .archive_team_grid_template .archive_team_grid_template_name {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--white-color);
+    text-align: center;
+    padding: 24px 0;
+}
+.Archive_Team .archive_team_grid .archive_team_grid_template .archive_team_grid_template_position {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white-color-tertiary);
+    text-align: center;
+    padding-bottom: 24px;
+}
+*/

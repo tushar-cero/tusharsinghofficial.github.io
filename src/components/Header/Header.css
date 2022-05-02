@@ -1,0 +1,87 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 24px 16px;
+    margin: 0;
+    z-index: 3;
+}
+header .header_container {
+    padding: 0 60px;
+}
+
+header:hover,
+header.scrollingOn {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 12px;
+    background-color: var(--dark-background-alpha);
+    transition: all 0.35s ease-in;
+}
+
+header .header_logo {
+    display: block;
+    width: 200px;
+    height: 34px;
+    background-image: url('../../assets/icons_logos/logo_withoutBG_black.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 840px ) {
+    header {
+        width: 100vw;
+        margin: 0;
+        border-radius: 0px;
+    }
+    header .header_container {
+        padding: 0 16px;
+    }
+    header .header_logo {
+        width: 200px;
+        height: 34px;
+    }
+}
+
+@media (max-width: 720px ) {
+    header .header_logo {
+        width: 150px;
+        height: 23px;
+    }
+}
+
+/* -------------------- Menu Toggle -------------------- */
+
+header .header_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header_buttons .menu_icon {
+    background: transparent;
+    color: var(--text-color-alpha);
+    font-size: 30px;
+    margin: auto 0 auto 24px;
+}
+
+@media (max-width: 840px ) {
+    header .header_buttons .menu_icon {
+        font-size: 30px;
+        margin: auto 0 auto 18px;
+    }
+    .hide-720px{
+        display: none;
+    }
+}
+@media (max-width: 720px) {
+    header .header_buttons .menu_icon {
+        font-size: 28px;
+        margin: auto 0 auto 18px;
+    }
+    .hide-720px{
+        display: none;
+    }
+}

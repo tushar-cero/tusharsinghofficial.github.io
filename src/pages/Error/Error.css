@@ -1,0 +1,59 @@
+.Error {
+    height: 100vh;
+    width: 100%
+}
+.Error .error_background {
+    height: 600px;
+    width: 1000px;
+    
+    background-image: url('../../assets/illustrations/error.png');
+}
+
+.Error .back_link {
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+@media (max-width: 1032px) {
+    .Error .error_background {
+        height: 400px;
+        width: 840px;
+    }
+}
+@media (max-width: 880px) {
+    .Error .error_background {
+        height: 360px;
+        width: 600px;
+    }
+}
+@media (max-width: 640px) {
+    .Error .error_background {
+        height: 300px;
+        width: 480px;
+    }
+}
+@media (max-width: 540px) {
+    .Error .error_background {
+        height: 260px;
+        width: 400px;
+    }
+}
+@media (max-width: 480px) {
+    .Error .error_background {
+        height: 300px;
+        width: 360px;
+    }
+}
+@media (max-width: 400px) {
+    .Error .error_background {
+        height: 200px;
+        width: 300px;
+    }
+}
+@media (max-width: 332px) {
+    .Error .error_background {
+        height: 200px;
+        width: 200px;
+    }
+}
