@@ -8,35 +8,46 @@ import Footer from '../../components/Footer/Footer';
 import abhishek_sharma from "../../assets/team/new_team/abhishek_sharma.jpeg";
 import poojan_naik from "../../assets/team/new_team/poojan_naik.jpeg";
 import anagha_nair from "../../assets/team/new_team/anagha_nair_2.jpg";
+
 import chaitanya from "../../assets/team/new_team/chaitanya_mohan.png";
 import rudrayani_sawarkar from "../../assets/team/new_team/rudrayani_sawarkar.jpeg";
 import sukanya_biradar from "../../assets/team/new_team/sukanya_biradar.jpg";
 import vaishnavi_mokadam from "../../assets/team/new_team/vaishnavi_mokadam.png";
 import tushar_singh from "../../assets/team/new_team/tushar_singh.jpeg";
+
 import anika_bansal from "../../assets/team/new_team/anika_bansal.png";
 import saniya_mulla from "../../assets/team/new_team/saniya_mulla.png";
 import kanak_tayal from "../../assets/team/new_team/kanak_tayal.png";
 import tanishq_hulyalkar from "../../assets/team/new_team/tanishq_hulyalkar.png";
 import utkarsha_kesarkar from "../../assets/team/new_team/utkarsha_kesarkar.png";
 import aditi_nalkande from "../../assets/team/new_team/aditi_nalkande.png";
+
 import dnyandeep_chaudhari from "../../assets/team/new_team/dnyandeep_chaudhari.jpeg";
 import sharvin_shitole from "../../assets/team/new_team/sharvin_shitole.jpeg";
 import sushant_jadhav from "../../assets/team/new_team/sushant_jadhav.png";
 import koushani_das from "../../assets/team/new_team/koushani_das.png";
 import sanyog_mahajan from "../../assets/team/new_team/sanyog_mahajan.jpeg";
 import divya_kumawat from "../../assets/team/new_team/divya_kumawat.png";
+
 import dipalie_pujari from "../../assets/team/new_team/dipalie_pujari.png";
-import vaishnavi_varkur from "../../assets/team/new_team/vaishnavi_varkur.jpeg";
+import rachit_roshan from "../../assets/team/new_team/rachit_roshan.jpeg";
+
 import shubhankar_barve from "../../assets/team/new_team/shubhankar_barve.jpeg";
-import kaif_shaikh from "../../assets/team/new_team/kaif_shaikh.jpeg";
 import devansh_borse from "../../assets/team/new_team/devansh_borse.png";
-import suzanne_mondal from "../../assets/team/new_team/suzanne_mondal.jpeg";
 import anshika_tiwari from "../../assets/team/new_team/anshika_tiwari.jpeg";
+import abhishek_suryawanshi from "../../assets/team/new_team/abhishek_suryawanshi.jpeg";
+import aman_shah from "../../assets/team/new_team/aman_shah.png";
+
+import vaishnavi_varkur from "../../assets/team/new_team/vaishnavi_varkur.jpeg";
+import shreya_shankar from "../../assets/team/new_team/shreya_shankar.jpeg";
+
 import nishka_kaushal from "../../assets/team/new_team/nishka_kaushal.jpeg";
 import vishnupriya_sajeev from "../../assets/team/new_team/vishnupriya_sajeev.jpeg";
+import suzanne_mondal from "../../assets/team/new_team/suzanne_mondal.jpeg";
+
+import kaif_shaikh from "../../assets/team/new_team/kaif_shaikh.jpeg";
 import aditya_magdum from "../../assets/team/new_team/aditya_magdum.jpeg";
-import aman_shah from "../../assets/team/new_team/aman_shah.png";
-import rachit_roshan from "../../assets/team/new_team/rachit_roshan.jpeg";
+
 import gagan_raj from "../../assets/team/new_team/gagan_raj.png";
 
 const organisingDB = [
@@ -91,18 +102,6 @@ const curationDB = [
         "website": "https://tusharsinghofficial.netlify.app/"
     },
     {
-        "id": 2,
-        "name": "Sukanya Biradar",
-        "position": "Member",
-        "image": sukanya_biradar,
-        "email": "mailto:sukanyabiradar26@gmail.com",
-        "facebook": "",
-        "twitter": "",
-        "linkedin": "",
-        "instagram": "",
-        "website": ""
-    },
-    {
         "id": 3,
         "name": "Chaitanya",
         "position": "Member",
@@ -137,6 +136,19 @@ const curationDB = [
         "twitter": "",
         "linkedin": "https://www.linkedin.com/in/rudrayani-sawarkar-984a27213",
         "instagram": "https://instagram.com/rudrayani_sawarkar?utm_medium=copy_link",
+        "website": ""
+    },
+
+    {
+        "id": 2,
+        "name": "Sukanya Biradar",
+        "position": "Member",
+        "image": sukanya_biradar,
+        "email": "mailto:sukanyabiradar26@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "",
+        "instagram": "",
         "website": ""
     }
 ];
@@ -317,38 +329,38 @@ const coordinatorDB = [
 const eventManagementDB = [
     {
         "id": 1,
-        "name": "Vaishnavi Varkur",
+        "name": "Anshika Tiwari",
         "position": "Member",
-        "image": vaishnavi_varkur,
-        "email": "mailto:vaishnavi4802@gmail.com",
+        "image": anshika_tiwari,
+        "email": "mailto:anshikatiwari11942@gmail.com",
         "facebook": "",
         "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/vaishnavi-varkur",
-        "instagram": "https://www.instagram.com/vaishnavivarkur/",
+        "linkedin": "https://www.linkedin.com/in/anshika-tiwari-9187b7206",
+        "instagram": "https://instagram.com/anshikatiwari11942?r=nametag",
         "website": ""
     },
     {
         "id": 2,
-        "name": "Shubhankar Barve",
+        "name": "Abhishek Suryawanshi ",
         "position": "Member",
-        "image": shubhankar_barve,
-        "email": "mailto:barveshubhankar@gmail.com",
+        "image": abhishek_suryawanshi,
+        "email": "mailto:8698abhiksuryawanahi@gmail.com",
         "facebook": "",
         "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/shubhankarbarve/",
-        "instagram": "https://www.instagram.com/shubhankarbarve/",
+        "linkedin": "https://www.linkedin.com/in/abhishek-suryawanshi-71839121a",
+        "instagram": "https://www.instagram.com/_abhishek8881/",
         "website": ""
     },
     {
         "id": 3,
-        "name": "Kaif Shaikh",
+        "name": "Syed Aman Shah",
         "position": "Member",
-        "image": kaif_shaikh,
-        "email": "mailto:kaifs0351@gmail.com",
-        "facebook": "",
+        "image": aman_shah,
+        "email": "mailto:shahaman121@gmail.com",
+        "facebook": "https://www.facebook.com/100003186492854/",
         "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/kaifshaikhhh/",
-        "instagram": "https://www.instagram.com/kaifshaikhhhh/",
+        "linkedin": "",
+        "instagram": "https://instagram.com/syed._aman._shah",
         "website": ""
     },
     {
@@ -365,6 +377,72 @@ const eventManagementDB = [
     },
     {
         "id": 5,
+        "name": "Shubhankar Barve",
+        "position": "Member",
+        "image": shubhankar_barve,
+        "email": "mailto:barveshubhankar@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/shubhankarbarve/",
+        "instagram": "https://www.instagram.com/shubhankarbarve/",
+        "website": ""
+    },
+];
+const sponsorshipDB = [
+    {
+        "id": 1,
+        "name": "Vaishnavi Varkur",
+        "position": "Member",
+        "image": vaishnavi_varkur,
+        "email": "mailto:vaishnavi4802@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/vaishnavi-varkur",
+        "instagram": "https://www.instagram.com/vaishnavivarkur/",
+        "website": ""
+    },
+    {
+        "id": 2,
+        "name": "Shreya Shankar",
+        "position": "Member",
+        "image": shreya_shankar,
+        "email": "mailto:shreyashankar97@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "",
+        "instagram": "",
+        "website": ""
+    }
+];
+const videographyDB = [
+    {
+        "id": 1,
+        "name": "Kaif Shaikh",
+        "position": "Member",
+        "image": kaif_shaikh,
+        "email": "mailto:kaifs0351@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/kaifshaikhhh/",
+        "instagram": "https://www.instagram.com/kaifshaikhhhh/",
+        "website": ""
+    },
+    {
+        "id": 2,
+        "name": "Aditya Magdum",
+        "position": "Member",
+        "image": aditya_magdum,
+        "email": "mailto:aditya19magdum@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/aditya-magdum-8aa908236",
+        "instagram": "https://instagram.com/adit.ya_xd?igshid=YmMyMTA2M2Y=",
+        "website": ""
+    }
+];
+const stageDesignDB = [
+    {
+        "id": 1,
         "name": "Suzanne Mondal",
         "position": "Member",
         "image": suzanne_mondal,
@@ -376,19 +454,7 @@ const eventManagementDB = [
         "website": ""
     },
     {
-        "id": 6,
-        "name": "Anshika Tiwari",
-        "position": "Member",
-        "image": anshika_tiwari,
-        "email": "mailto:anshikatiwari11942@gmail.com",
-        "facebook": "",
-        "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/anshika-tiwari-9187b7206",
-        "instagram": "https://instagram.com/anshikatiwari11942?r=nametag",
-        "website": ""
-    },
-    {
-        "id": 7,
+        "id": 2,
         "name": "Nishka Kaushal",
         "position": "Member",
         "image": nishka_kaushal,
@@ -400,7 +466,7 @@ const eventManagementDB = [
         "website": ""
     },
     {
-        "id": 8,
+        "id": 3,
         "name": "Vishnupriya Sajeev",
         "position": "Member",
         "image": vishnupriya_sajeev,
@@ -410,32 +476,7 @@ const eventManagementDB = [
         "linkedin": "",
         "instagram": "https://instagram.com/vpsajeev020?igshid=YmMyMTA2M2Y=",
         "website": ""
-    },
-    {
-        "id": 9,
-        "name": "Aditya Magdum",
-        "position": "Member",
-        "image": aditya_magdum,
-        "email": "mailto:aditya19magdum@gmail.com",
-        "facebook": "",
-        "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/aditya-magdum-8aa908236",
-        "instagram": "https://instagram.com/adit.ya_xd?igshid=YmMyMTA2M2Y=",
-        "website": ""
-    },
-    {
-        "id": 10,
-        "name": "Syed Aman Shah",
-        "position": "Member",
-        "image": aman_shah,
-        "email": "mailto:shahaman121@gmail.com",
-        "facebook": "https://www.facebook.com/100003186492854/",
-        "twitter": "",
-        "linkedin": "",
-        "instagram": "https://instagram.com/syed._aman._shah",
-        "website": ""
     }
-    
 ];
 const websiteDB = [
     {
@@ -463,7 +504,6 @@ const websiteDB = [
         "website": ""
     }
 ];
-
 
 
 const Team = () => {
@@ -619,6 +659,90 @@ const Team = () => {
                         <h2>Event Management Team</h2>
                         <div className="flex_wrap_evenly">
                             {eventManagementDB.map((eachMember) => (
+                                <div className="team_member_template" key={eachMember.id}>
+                                    <div className="team_member_template_background_image_container background_image"></div>
+                                    <div className="team_member_template_image background_image">
+                                        <div className="team_member_template_image_member background_image" style={{backgroundImage: `url(${eachMember.image})`}}></div>
+                                    </div>
+                                    <div className="team_member_template_info flex_regular">
+                                        <div>
+                                            <p className="team_member_template_info_name">{eachMember.name}</p>
+                                            <p className="team_member_template_info_position">{eachMember.position}</p>
+                                        </div>
+                                    </div>
+                                    <div className="team_member_template_social_media flex_space_evenly">
+                                    { (eachMember.email!=='') && <div><a aria-label="email" target="_blank" rel="noreferrer noopener"href={eachMember.email}><i aria-hidden="true" className="fa fa-envelope-o"></i>&#0;</a></div> }
+                                        { (eachMember.instagram!=='') && <div><a aria-label="instagram" target="_blank" rel="noreferrer noopener"href={eachMember.instagram}><i aria-hidden="true" className="fa fa-instagram"></i>&#0;</a></div> }
+                                        { (eachMember.facebook!=='') && <div><a aria-label="facebook" target="_blank" rel="noreferrer noopener"href={eachMember.facebook}><i aria-hidden="true" className="fa fa-facebook"></i>&#0;</a></div> }
+                                        { (eachMember.linkedin!=='') && <div><a aria-label="linkedin" target="_blank" rel="noreferrer noopener"href={eachMember.linkedin}><i aria-hidden="true" className="fa fa-linkedin"></i>&#0;</a></div> }
+                                        { (eachMember.twitter!=='') && <div><a aria-label="twitter" target="_blank" rel="noreferrer noopener"href={eachMember.twitter}><i aria-hidden="true" className="fa fa-twitter"></i>&#0;</a></div> }
+                                        { (eachMember.website!=='') && <div><a aria-label="website" target="_blank" rel="noreferrer noopener"href={eachMember.website}><i aria-hidden="true" className="fa fa-desktop"></i>&#0;</a></div> }
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>Sponsorship and Budgeting Team</h2>
+                        <div className="flex_wrap_evenly">
+                            {sponsorshipDB.map((eachMember) => (
+                                <div className="team_member_template" key={eachMember.id}>
+                                    <div className="team_member_template_background_image_container background_image"></div>
+                                    <div className="team_member_template_image background_image">
+                                        <div className="team_member_template_image_member background_image" style={{backgroundImage: `url(${eachMember.image})`}}></div>
+                                    </div>
+                                    <div className="team_member_template_info flex_regular">
+                                        <div>
+                                            <p className="team_member_template_info_name">{eachMember.name}</p>
+                                            <p className="team_member_template_info_position">{eachMember.position}</p>
+                                        </div>
+                                    </div>
+                                    <div className="team_member_template_social_media flex_space_evenly">
+                                    { (eachMember.email!=='') && <div><a aria-label="email" target="_blank" rel="noreferrer noopener"href={eachMember.email}><i aria-hidden="true" className="fa fa-envelope-o"></i>&#0;</a></div> }
+                                        { (eachMember.instagram!=='') && <div><a aria-label="instagram" target="_blank" rel="noreferrer noopener"href={eachMember.instagram}><i aria-hidden="true" className="fa fa-instagram"></i>&#0;</a></div> }
+                                        { (eachMember.facebook!=='') && <div><a aria-label="facebook" target="_blank" rel="noreferrer noopener"href={eachMember.facebook}><i aria-hidden="true" className="fa fa-facebook"></i>&#0;</a></div> }
+                                        { (eachMember.linkedin!=='') && <div><a aria-label="linkedin" target="_blank" rel="noreferrer noopener"href={eachMember.linkedin}><i aria-hidden="true" className="fa fa-linkedin"></i>&#0;</a></div> }
+                                        { (eachMember.twitter!=='') && <div><a aria-label="twitter" target="_blank" rel="noreferrer noopener"href={eachMember.twitter}><i aria-hidden="true" className="fa fa-twitter"></i>&#0;</a></div> }
+                                        { (eachMember.website!=='') && <div><a aria-label="website" target="_blank" rel="noreferrer noopener"href={eachMember.website}><i aria-hidden="true" className="fa fa-desktop"></i>&#0;</a></div> }
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>Videography Team</h2>
+                        <div className="flex_wrap_evenly">
+                            {videographyDB.map((eachMember) => (
+                                <div className="team_member_template" key={eachMember.id}>
+                                    <div className="team_member_template_background_image_container background_image"></div>
+                                    <div className="team_member_template_image background_image">
+                                        <div className="team_member_template_image_member background_image" style={{backgroundImage: `url(${eachMember.image})`}}></div>
+                                    </div>
+                                    <div className="team_member_template_info flex_regular">
+                                        <div>
+                                            <p className="team_member_template_info_name">{eachMember.name}</p>
+                                            <p className="team_member_template_info_position">{eachMember.position}</p>
+                                        </div>
+                                    </div>
+                                    <div className="team_member_template_social_media flex_space_evenly">
+                                    { (eachMember.email!=='') && <div><a aria-label="email" target="_blank" rel="noreferrer noopener"href={eachMember.email}><i aria-hidden="true" className="fa fa-envelope-o"></i>&#0;</a></div> }
+                                        { (eachMember.instagram!=='') && <div><a aria-label="instagram" target="_blank" rel="noreferrer noopener"href={eachMember.instagram}><i aria-hidden="true" className="fa fa-instagram"></i>&#0;</a></div> }
+                                        { (eachMember.facebook!=='') && <div><a aria-label="facebook" target="_blank" rel="noreferrer noopener"href={eachMember.facebook}><i aria-hidden="true" className="fa fa-facebook"></i>&#0;</a></div> }
+                                        { (eachMember.linkedin!=='') && <div><a aria-label="linkedin" target="_blank" rel="noreferrer noopener"href={eachMember.linkedin}><i aria-hidden="true" className="fa fa-linkedin"></i>&#0;</a></div> }
+                                        { (eachMember.twitter!=='') && <div><a aria-label="twitter" target="_blank" rel="noreferrer noopener"href={eachMember.twitter}><i aria-hidden="true" className="fa fa-twitter"></i>&#0;</a></div> }
+                                        { (eachMember.website!=='') && <div><a aria-label="website" target="_blank" rel="noreferrer noopener"href={eachMember.website}><i aria-hidden="true" className="fa fa-desktop"></i>&#0;</a></div> }
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+
+                    <section>
+                        <h2>Stage Design Team</h2>
+                        <div className="flex_wrap_evenly">
+                            {stageDesignDB.map((eachMember) => (
                                 <div className="team_member_template" key={eachMember.id}>
                                     <div className="team_member_template_background_image_container background_image"></div>
                                     <div className="team_member_template_image background_image">
