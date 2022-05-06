@@ -386,6 +386,9 @@
     padding-inline: 16px;
     padding-bottom: 24px;
 }
+.Home_Venue .venue_container .venue_grid .venue_grid_info .button_container {
+    margin: 24px 0;
+}
 .Home_Venue .venue_container .venue_grid .venue_grid_map_embedded,
 .Home_Venue .venue_container .venue_grid .venue_grid_map_embedded iframe{
     height: 300px;

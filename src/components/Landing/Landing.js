@@ -9,6 +9,20 @@ const Landing = ({heading}) => {
                 <div className="landing_heading">{heading}</div>
             </div>
             <div className="landing_bottom_image background_image"></div>
+            <div class="area" >
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div >
         </article>
     );
 }

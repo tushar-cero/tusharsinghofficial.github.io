@@ -21,8 +21,8 @@ header.scrollingOn {
 
 header .header_logo {
     display: block;
-    width: 200px;
-    height: 34px;
+    width: 300px;
+    height: 72px;
     background-image: url('../../assets/icons_logos/logo_withoutBG_black.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -40,14 +40,14 @@ header .header_logo {
     }
     header .header_logo {
         width: 200px;
-        height: 34px;
+        height: 40px;
     }
 }
 
 @media (max-width: 720px ) {
     header .header_logo {
-        width: 150px;
-        height: 23px;
+        width: 180px;
+        height: 36px;
     }
 }
 

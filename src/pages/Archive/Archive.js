@@ -214,7 +214,7 @@ const designDB = [
     },
     {
         "id": 2,
-        "name": "Vaishnavi kadam",
+        "name": "Vaishnavi Kadam",
         "position": "Member",
         "image": vaishnavi_kadam
     },
@@ -273,7 +273,7 @@ const Archive = () => {
                                         <p className="speaker_name">{eachSpeaker.name}</p>
                                         <p className="speakers_profession">{eachSpeaker.profession}</p>
                                         <div className="button_container">
-                                            <button href={eachSpeaker.link} className="btn btn_secondary" aria-label="play"><i className="fa fa-play"></i>&nbsp;&nbsp;&nbsp;&nbsp;Watch&nbsp;&nbsp;</button>
+                                            <a href={eachSpeaker.link} className="btn btn_secondary" aria-label="play"><i className="fa fa-play"></i>&nbsp;&nbsp;&nbsp;&nbsp;Watch&nbsp;&nbsp;</a>
                                         </div>
                                     </div>
                                 </div>

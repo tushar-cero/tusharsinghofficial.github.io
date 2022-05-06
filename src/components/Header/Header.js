@@ -22,7 +22,7 @@ const Header = () => {
         <header className={headerBackground?'scrollingOn':' '}>
             <div className="header_container">
                 <div className="flex_space_between">
-                    <Link to="/" aria-label="instagram" target="_blank" rel="noopener">
+                    <Link to="/" aria-label="logo" target="_blank" rel="noopener">
                         <div className="header_logo"></div>
                     </Link>
                     <div className='header_buttons'>

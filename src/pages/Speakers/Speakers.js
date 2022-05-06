@@ -7,21 +7,13 @@ import Landing from '../../components/Landing/Landing';
 import Sidedrawer from '../../components/SideDrawer/SideDrawer';
 
 import chaitanya_mohan from "../../assets/team/new_team/chaitanya_mohan.png";
-import sukanya_biradar from "../../assets/team/new_team/sukanya_biradar.jpg";
 
 const speakerDB = [
     {
-        "id": 2,
+        "id": 1,
         "name": "Chaitanya",
         "profession": "Public Intellectual and Futurist",
         "image": chaitanya_mohan,
-        "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officiis molestias sed accusantium nisi recusandae ad quis at dignissimos, libero minima ipsa ipsam mollitia earum quam illo, veritatis quas numquam. Voluptate nemo adipisci exercitationem molestias pariatur voluptatum labore nobis repudiandae neque, illo voluptatem alias corporis aperiam veritatis! Libero, sapiente excepturi."
-    },
-    {
-        "id": 3,
-        "name": "Sukanya Biradar",
-        "profession": "Public Figure and Philanthropist",
-        "image": sukanya_biradar,
         "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officiis molestias sed accusantium nisi recusandae ad quis at dignissimos, libero minima ipsa ipsam mollitia earum quam illo, veritatis quas numquam. Voluptate nemo adipisci exercitationem molestias pariatur voluptatum labore nobis repudiandae neque, illo voluptatem alias corporis aperiam veritatis! Libero, sapiente excepturi."
     }
 ]

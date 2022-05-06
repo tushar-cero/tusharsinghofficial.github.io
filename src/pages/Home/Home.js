@@ -91,7 +91,7 @@ const Home = () => {
                         <div className="venue_grid_info">
                             <h1>VENUE</h1>
                             <p>D. Y. Patil Educational Complex, Sector 29, Nigidi Pradhikaran, Akurdi, Pune 411044.</p>
-                            <div className="button_container"><button className="btn btn_primary" aria-label="locate">LOCATE</button></div>
+                            <div className="button_container"><a href="https://www.google.com/maps?q=Dr.+D.Y.+Patil+Institute+of+Engineering,+Management+and+Research,+D.+Y.+Patil+Educational+Complex,+Akurdi,+Sector+29,+Ravet+Village+Rd,+Gurudwara+Colony,+Nigdi,+Pimpri-Chinchwad,+Maharashtra+411035&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj31-Tsjcn3AhVDAIgKHZNxAV0Q_AUoAnoECAEQBA" className="btn btn_primary" aria-label="locate">LOCATE</a></div>
                         </div>
                         <div className="venue_grid_map_embedded">
                             <iframe title="google maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15121.631403099624!2d73.7512569!3d18.6456854!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9ef588fffff%3A0xed7869959e7d6300!2sDr.%20D.Y.%20Patil%20Institute%20of%20Engineering%2C%20Management%20and%20Research!5e0!3m2!1sen!2sin!4v1641211077076!5m2!1sen!2sin" allowFullScreen="" loading="lazy"></iframe>
