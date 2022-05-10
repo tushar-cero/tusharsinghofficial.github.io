@@ -37,6 +37,7 @@ import devansh_borse from "../../assets/team/new_team/devansh_borse.png";
 import anshika_tiwari from "../../assets/team/new_team/anshika_tiwari.jpeg";
 import abhishek_suryawanshi from "../../assets/team/new_team/abhishek_suryawanshi.jpeg";
 import aman_shah from "../../assets/team/new_team/aman_shah.png";
+import ajinkya_suryavanshi from "../../assets/team/new_team/ajinkya_suryavanshi.jpeg";
 
 import vaishnavi_varkur from "../../assets/team/new_team/vaishnavi_varkur.jpeg";
 import shreya_shankar from "../../assets/team/new_team/shreya_shankar.jpeg";
@@ -102,7 +103,7 @@ const curationDB = [
         "website": "https://tusharsinghofficial.netlify.app/"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Chaitanya",
         "position": "Member",
         "image": chaitanya,
@@ -114,7 +115,7 @@ const curationDB = [
         "website": "https://chai.substack.com"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Vaishnavi Mokadam",
         "position": "Member",
         "image": vaishnavi_mokadam,
@@ -127,7 +128,7 @@ const curationDB = [
         // https://twitter.com/VaishnaviMokad1
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Rudrayani Sawarkar ",
         "position": "Member",
         "image": rudrayani_sawarkar,
@@ -138,9 +139,8 @@ const curationDB = [
         "instagram": "https://instagram.com/rudrayani_sawarkar?utm_medium=copy_link",
         "website": ""
     },
-
     {
-        "id": 2,
+        "id": 5,
         "name": "Sukanya Biradar",
         "position": "Member",
         "image": sukanya_biradar,
@@ -387,6 +387,18 @@ const eventManagementDB = [
         "instagram": "https://www.instagram.com/shubhankarbarve/",
         "website": ""
     },
+    {
+        "id": 6,
+        "name": "Ajinkya Suryavanshi",
+        "position": "Member",
+        "image": ajinkya_suryavanshi,
+        "email": "mailto:ajinkyasuryavanshi009@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "",
+        "instagram": "https://www.instagram.com/notyet_ajinkya/",
+        "website": ""
+    }
 ];
 const sponsorshipDB = [
     {
