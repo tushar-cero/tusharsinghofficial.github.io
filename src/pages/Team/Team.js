@@ -37,6 +37,7 @@ import devansh_borse from "../../assets/team/new_team/devansh_borse.png";
 import anshika_tiwari from "../../assets/team/new_team/anshika_tiwari.jpeg";
 import abhishek_suryawanshi from "../../assets/team/new_team/abhishek_suryawanshi.jpeg";
 import aman_shah from "../../assets/team/new_team/aman_shah.png";
+import shreyas_menge from "../../assets/team/new_team/shreyas_menge.jpeg";
 import ajinkya_suryavanshi from "../../assets/team/new_team/ajinkya_suryavanshi.jpeg";
 
 import vaishnavi_varkur from "../../assets/team/new_team/vaishnavi_varkur.jpeg";
@@ -389,6 +390,18 @@ const eventManagementDB = [
     },
     {
         "id": 6,
+        "name": "Shreyas Menge",
+        "position": "Member",
+        "image": shreyas_menge,
+        "email": "mailto:shreyasmenge10@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/shreyas-menge-8218721ba",
+        "instagram": "https://www.instagram.com/shreyasmenge/",
+        "website": ""
+    },
+    {
+        "id": 7,
         "name": "Ajinkya Suryavanshi",
         "position": "Member",
         "image": ajinkya_suryavanshi,
