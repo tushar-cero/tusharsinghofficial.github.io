@@ -4,6 +4,7 @@
     position: relative;
     height: 90vh;
     width: 100vw;
+    background-color: #000;
 }
 .Home_Landing .container{
     z-index: 2;
@@ -21,7 +22,6 @@
     border: var(--border-color-dark-alpha) 1px solid;
 }
 .Home_Landing .event_date {
-    background-color: var(--dark-background-beta);
     padding: 16px;
     font-size: 18px;
     font-weight: 700;
@@ -31,15 +31,17 @@
     margin-inline: auto;
     position: relative;
     top: -30px;
+    backdrop-filter: blur(4px);
 }
 .Home_Landing .bottom_image {
-    background-image: url('../../assets/illustrations/light_waves.png');
+    background-image: url('../../assets/background_images/home_landing.png');
+    background-position: top;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 240px;
-    z-index: 1;
+    z-index: 0;
 }
 
 .area{

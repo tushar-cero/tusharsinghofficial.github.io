@@ -2,6 +2,7 @@
     height: 80vh;
     width: 100%;
     position: relative;
+    background-color: #000;
 }
 .Landing .landing_heading {
     position: relative;
@@ -15,13 +16,14 @@
 }
 .Landing .landing_bottom_image {
     /* background-image: url('../../assets/illustrations/light_waves.png'); */
-    background-image: url('../../assets/illustrations/wave_lines.png');
+    background-image: url('../../assets/background_images/home_landing.png');
+    background-position: top;
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     width: 100%;
-    height: 1000px;
-    z-index: 1;
+    height: 300px;
+    z-index: 0;
 }
 
 .area{
@@ -137,7 +139,7 @@
 } 
 @media (max-width: 640px) {
     .Landing .landing_bottom_image {
-        height: 400px;
+        height: 200px;
     }
 } 
 @media (min-width: 640px) {

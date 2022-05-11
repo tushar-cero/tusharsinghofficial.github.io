@@ -39,6 +39,8 @@ import abhishek_suryawanshi from "../../assets/team/new_team/abhishek_suryawansh
 import aman_shah from "../../assets/team/new_team/aman_shah.png";
 import shreyas_menge from "../../assets/team/new_team/shreyas_menge.jpeg";
 import ajinkya_suryavanshi from "../../assets/team/new_team/ajinkya_suryavanshi.jpeg";
+import parth_sumbre from "../../assets/team/new_team/parth_sumbre.webp";
+import ayush_gondane from "../../assets/team/new_team/ayush_gondane.jpeg";
 
 import vaishnavi_varkur from "../../assets/team/new_team/vaishnavi_varkur.jpeg";
 import shreya_shankar from "../../assets/team/new_team/shreya_shankar.jpeg";
@@ -61,8 +63,8 @@ const organisingDB = [
         "email": "mailto:acool9960@gmail.com",
         "facebook": "",
         "twitter": "",
-        "linkedin": "",
-        "instagram": "https://www.instagram.com/nuefehist/",
+        "linkedin": "https://www.linkedin.com/in/abhishek-bhagatsharma",
+        "instagram": "https://instagram.com/nuefehist?igshid=YmMyMTA2M2Y=",
         "website": ""
     },
     {
@@ -410,6 +412,30 @@ const eventManagementDB = [
         "twitter": "",
         "linkedin": "",
         "instagram": "https://www.instagram.com/notyet_ajinkya/",
+        "website": ""
+    },
+    {
+        "id": 8,
+        "name": "Parth Sumbre",
+        "position": "Member",
+        "image": parth_sumbre,
+        "email": "mailto:parthsumbre2002@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/parth-sumbre-94a1b4206/",
+        "instagram": "https://www.instagram.com/parthsumbre/",
+        "website": ""
+    },
+    {
+        "id": 9,
+        "name": "Ayush Gondane",
+        "position": "Member",
+        "image": ayush_gondane,
+        "email": "mailto:gondane.007@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/mwlite/in/ayush-gondane-87b177154",
+        "instagram": "https://www.instagram.com/_.aayu2698._/",
         "website": ""
     }
 ];
