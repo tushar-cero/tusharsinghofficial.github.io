@@ -17,7 +17,7 @@ const SideDrawer = () => {
                 <li><Link to='/archive'>Archive</Link></li>
                 <li><Link to='/team'>Our Team</Link></li>
                 <li><Link to='/terms-and-condition'>Terms and Condtions</Link></li>
-                <li><a aria-label="button" target="_blank" rel="noreferrer noopener"href="https://razorpay.com/" className="btn btn_primary show_720px">Grab a Ticket</a></li>
+                <li><a aria-label="button" target="_blank" rel="noreferrer noopener"href="https://forms.gle/SmhGX1VCkhsoRJ4NA" className="btn btn_primary show_720px">Grab a Ticket</a></li>
             </ul>
             <button aria-label="close" onClick={handleCloseNav} className='close_btn'>
                 <i className="fa fa-times" aria-hidden="true" ></i>

@@ -26,7 +26,7 @@ const Header = () => {
                         <div className="header_logo"></div>
                     </Link>
                     <div className='header_buttons'>
-                        <a aria-label="email" target="_blank" rel="noreferrer noopener"href="https://razorpay.com/" className="btn btn_primary hide-720px">Grab a Ticket</a>
+                        <a aria-label="email" target="_blank" rel="noreferrer noopener"href="https://forms.gle/SmhGX1VCkhsoRJ4NA" className="btn btn_primary hide-720px">Grab a Ticket</a>
                         <button aria-label="open-button" onClick={handleOpenNav} id='menu_icon' className='menu_icon'>
                             <i className="fa fa-bars" aria-hidden="true"></i>
                         </button>
