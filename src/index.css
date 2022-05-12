@@ -172,6 +172,7 @@ main {
 	background-size: cover;
 	height: inherit;
 	width: inherit;
+	
 }
 .background_image_contain {
 	background-image: inherit;
