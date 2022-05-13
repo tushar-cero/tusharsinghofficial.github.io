@@ -126,8 +126,8 @@ const curationDB = [
         "email": "mailto:vaishnavimokadam@gmail.com",
         "facebook": "",
         "twitter": "",
-        "linkedin": "https://www.linkedin.com/in/𝐕𝐚𝐢𝐬𝐡𝐧𝐚𝐯𝐢-𝐌𝐨𝐤𝐚𝐝𝐚𝐦-9b2b74205/",
-        "instagram": "https://www.instagram.com/potatochipzzzzz_27/",
+        "linkedin": "http://www.linkedin.com/in/vaishnavi-mokadam-9b2b74205",
+        "instagram": "https://www.instagram.com/vaishnavimokadam_27/",
         "website": ""
         // https://twitter.com/VaishnaviMokad1
     },
