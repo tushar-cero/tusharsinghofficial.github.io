@@ -18,7 +18,7 @@
 }
 .Home_Landing .underline {
     width: 100%;
-    min-width: 360px;
+    min-width: 200px;
     border: var(--border-color-dark-alpha) 1px solid;
 }
 .Home_Landing .event_date {
@@ -149,7 +149,13 @@
         border-radius: 50%;
     }
 }
-
+@media (max-width: 360px) {
+    .Home_Landing .univocal_background {
+        height: 180px;
+        width: 280px;
+        /* width: 90%; */
+    }
+}
 @media (max-width: 480px) {
     .Home_Landing .univocal_background {
         height: 240px;
