@@ -137,6 +137,13 @@
         font-size: 24px;
     }
 } 
+@media (max-width: 480px) {
+    .Landing .landing_heading {
+        font-size: 30px;
+    }
+} 
+
+
 @media (max-width: 640px) {
     .Landing .landing_bottom_image {
         height: 200px;
