@@ -7,7 +7,7 @@ import Footer from '../../components/Footer/Footer';
 
 import abhishek_sharma from "../../assets/team/new_team/abhishek_sharma.jpeg";
 import poojan_naik from "../../assets/team/new_team/poojan_naik.jpeg";
-import anagha_nair from "../../assets/team/new_team/anagha_nair_2.jpg";
+import anagha_nair from "../../assets/team/new_team/anagha_nair.jpeg";
 
 import chaitanya from "../../assets/team/new_team/chaitanya_mohan.png";
 import rudrayani_sawarkar from "../../assets/team/new_team/rudrayani_sawarkar.jpeg";
@@ -51,6 +51,7 @@ import suzanne_mondal from "../../assets/team/new_team/suzanne_mondal.jpeg";
 
 import kaif_shaikh from "../../assets/team/new_team/kaif_shaikh.jpeg";
 import aditya_magdum from "../../assets/team/new_team/aditya_magdum.jpeg";
+import shivam_ratnawat from "../../assets/team/new_team/shivam_ratnawat.jpeg";
 
 import gagan_raj from "../../assets/team/new_team/gagan_raj.png";
 
@@ -488,6 +489,18 @@ const videographyDB = [
         "twitter": "",
         "linkedin": "https://www.linkedin.com/in/aditya-magdum-8aa908236",
         "instagram": "https://instagram.com/adit.ya_xd?igshid=YmMyMTA2M2Y=",
+        "website": ""
+    },
+    {
+        "id": 3,
+        "name": "Shivam Ratnawat ",
+        "position": "Member",
+        "image": shivam_ratnawat,
+        "email": "mailto:ratnawatshivam@gmail.com",
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/shivamratnawat",
+        "instagram": "https://instagram.com/shivam_ratnawat/",
         "website": ""
     }
 ];
