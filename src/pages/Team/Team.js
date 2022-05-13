@@ -76,7 +76,7 @@ const organisingDB = [
         "email": "mailto:poojannaik88@gmail.com",
         "facebook": "",
         "twitter": "",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/poojan-naik-51b676156/",
         "instagram": "https://www.instagram.com/poojan_naik_/",
         "website": ""
     },
