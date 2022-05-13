@@ -160,7 +160,7 @@
         height: 100vh;
     }
     .Landing .landing_heading {
-        font-size: 120px;
+        font-size: 90px;
     }
 }
 @media (min-width: 840px) {
