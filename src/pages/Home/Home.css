@@ -231,6 +231,11 @@
     font-size: 24px;
     padding-inline: 24px;
 }
+.Home_Banner .banner_background .banner_grid .banner_grid_quote .banner_grid_quote_said_by {
+    text-align: right;
+    padding: 24px 0;
+    font-size: 20px;
+}
 .Home_Banner .banner_background .banner_grid .banner_grid_image {
     background-image: url('../../assets/background_images/banner_x.png');
     height: 400px;
@@ -326,7 +331,7 @@
 .Home_About .section .about_grid .about_image_about_ted,
 .Home_About .section .about_grid .about_image_about_tedx,
 .Home_About .section .about_grid .about_image_univocal {
-    height: 300px;
+    height: 200px;
     width: 300px;
     margin-inline: auto;
 }

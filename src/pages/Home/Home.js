@@ -66,7 +66,10 @@ const Home = () => {
             <article className="Home_Banner flex_regular background_image">
                 <div className="banner_background">
                     <div className="banner_grid">
-                        <div className="banner_grid_quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, eaque?</div>
+                        <div className="banner_grid_quote">
+                            <div className="banner_grid_quote_data">“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”</div>
+                            <div className="banner_grid_quote_said_by"> ― Albert Einstein</div>
+                        </div>
                         <div className="banner_grid_image background_image_contain"></div>
                     </div>
                 </div>
