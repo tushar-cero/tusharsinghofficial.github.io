@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import { browserHistory } from 'react-router' BrowserRouter as Router,
+import {  Routes, Route } from 'react-router-dom';
 
 import Home from "./pages/Home/Home";
 import Team from "./pages/Team/Team";
@@ -12,7 +13,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
     return (
-        <Router>
+        // <Router>
             <ScrollToTop>
                 <Routes>
                     <Route exact path="/" element={<Home></Home>}></Route>
@@ -25,7 +26,7 @@ function App() {
                     <Route path="*" element={<Error/>}/> 
                 </Routes>
             </ScrollToTop>
-        </Router>
+        // </Router>
     );
 }
 
