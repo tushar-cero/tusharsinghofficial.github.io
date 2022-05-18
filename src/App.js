@@ -1,6 +1,6 @@
 import React from 'react';
 // import { browserHistory } from 'react-router' BrowserRouter as Router,
-import {  Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Home from "./pages/Home/Home";
 import Team from "./pages/Team/Team";
