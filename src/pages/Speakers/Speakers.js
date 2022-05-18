@@ -15,7 +15,7 @@ import ayush_srivastava from "../../assets/speakers/new_speakers/ayush_srivastav
 const speakerDB = [
     {
         "id": 1,
-        "name": "Ayush Srivastava",
+        "name": "Ayush Shrivastava",
         "profession": "Actor",
         "image": ayush_srivastava,
         "summary": "Ayush Shrivastava is an Indian film and television actor known for Kalank,LSD: Love, scandals and doctors,Abhay (TV series),Ishq Subhan Allah and,Suryaputra Karn, Dev (TV series). Ayush has also acted in several music videos,and has also appeared in TV/Web commercials."
@@ -49,7 +49,23 @@ const speakerDB = [
         "summary": "Ekta Dixit is a Psychologist & Relationship Coach since a decade and over a year she's turned into content creator on Instagram where she guides people through her self growth strategies and mental health advices. She recently won Cosmopolitan Mental Health influencer of the year'2022 and has been a Tedx speaker in past. She is transforming millions of lives by assisting them through their struggles. After a decade of working with human psychology, Her simple goal is to create cognizance about the right relationship, emotional independence, along personal development."
     }
     
-]
+];
+// const performerDB = [
+//     {
+//         "id": 1,
+//         "name": "Ayush Srivastava",
+//         "profession": "Actor",
+//         "image": ayush_srivastava,
+//         "summary": "Ayush Shrivastava is an Indian film and television actor known for Kalank,LSD: Love, scandals and doctors,Abhay (TV series),Ishq Subhan Allah and,Suryaputra Karn, Dev (TV series). Ayush has also acted in several music videos,and has also appeared in TV/Web commercials."
+//     },
+//     {
+//         "id": 2,
+//         "name": "Shuva Raha",
+//         "profession": "Head - New Initiatives at Council on Energy, Environment and Water",
+//         "image": shuva_raha,
+//         "summary": "Shuva leads CEEW’s strategic initiatives related to the geopolitics of energy – access, security, and justice; the low-carbon transition of core industrial sectors and transportation; circular economies of resources; and the global imperative for sustainable living amidst economic transformations. Her work includes policy advisory to governments, multilateral institutions, industry, and investors, and taking ‘The India Story’ global. Shuva has over 22 years of experience in public policy, branding, corporate operations, and project management. She manages her family's philanthropic initiative to support the education of underprivileged students through the Subir Raha Memorial Scholarship."
+//     }
+// ]
 
 const Speakers = () => {
 
@@ -75,6 +91,31 @@ const Speakers = () => {
                     </div>
                 ))}
             </article>
+
+            {/* <div className="sub_heading flex_regular">
+                <div className='content'>OUR &nbsp; PERFORMERS</div>
+            </div>
+
+            <article className="Speakers_Showcase">
+
+                {performerDB.map((eachMember) => (
+                    <div className="speaker_card flex_space_between" key={eachMember.id}>
+                        <div className="speaker_card_container">
+                            <div className="speaker_card_image background_image" style={{backgroundImage: `url(${eachMember.image})`}}></div>
+                            <div className="speaker_card_info flex_regular">
+                                <div>
+                                    <h3>SPEAKER</h3>
+                                    <h1>{eachMember.name}</h1>
+                                    <h2>{eachMember.profession}</h2>
+                                    <p>{eachMember.summary}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+
+            </article> */}
+
             <Footer/>
         </Fragment>
     );
