@@ -11,6 +11,8 @@ import anushka_kelkar from "../../assets/speakers/new_speakers/anushka_kelkar.jp
 import ekta_dixit from "../../assets/speakers/new_speakers/ekta_dixit.jpeg";
 import surabhi_singh from "../../assets/speakers/new_speakers/surabhi_singh.jpeg";
 import ayush_srivastava from "../../assets/speakers/new_speakers/ayush_srivastava.jpeg";
+import ashwarya_dhoble from "../../assets/speakers/new_speakers/ashwarya_dhoble.png";
+import nitin_ranjan from "../../assets/speakers/new_speakers/nitin_ranjan.png";
 
 const speakerDB = [
     {
@@ -50,22 +52,22 @@ const speakerDB = [
     }
     
 ];
-// const performerDB = [
-//     {
-//         "id": 1,
-//         "name": "Ayush Srivastava",
-//         "profession": "Actor",
-//         "image": ayush_srivastava,
-//         "summary": "Ayush Shrivastava is an Indian film and television actor known for Kalank,LSD: Love, scandals and doctors,Abhay (TV series),Ishq Subhan Allah and,Suryaputra Karn, Dev (TV series). Ayush has also acted in several music videos,and has also appeared in TV/Web commercials."
-//     },
-//     {
-//         "id": 2,
-//         "name": "Shuva Raha",
-//         "profession": "Head - New Initiatives at Council on Energy, Environment and Water",
-//         "image": shuva_raha,
-//         "summary": "Shuva leads CEEW’s strategic initiatives related to the geopolitics of energy – access, security, and justice; the low-carbon transition of core industrial sectors and transportation; circular economies of resources; and the global imperative for sustainable living amidst economic transformations. Her work includes policy advisory to governments, multilateral institutions, industry, and investors, and taking ‘The India Story’ global. Shuva has over 22 years of experience in public policy, branding, corporate operations, and project management. She manages her family's philanthropic initiative to support the education of underprivileged students through the Subir Raha Memorial Scholarship."
-//     }
-// ]
+const performerDB = [
+    {
+        "id": 1,
+        "name": "Ashwarya Dhoble",
+        "profession": "Singer-Songwriter",
+        "image": ashwarya_dhoble,
+        "summary": "Ashwarya Dhoble is a singer, composer, and musician based in Pune. He is a gear nerd who loves to explore new music tech and implement them while composing and producing music. Ashwarya released his single ‘Bega Baa’ in 2018 and ‘Zindagi Bun Le’ in 2019, which are available on major music streaming platforms. His musical journey began on the stage of Sa Re Ga Ma Pa L’il Champs in 2006, where he was one of the top 20 finalists. He has also collaborated as a music producer and mix engineer with several artists across genres."
+    },
+    {
+        "id": 2,
+        "name": "Nitin Ranjan",
+        "profession": "Dancer",
+        "image": nitin_ranjan,
+        "summary": "A choreographer/youtuber/software engineer who considers dancing to be his ikigai (A purpose in life). Also, he feels that art provides a definition of being 'YOU', where life begins with a 'Y' and ends with a 'U.'"
+    }
+]
 
 const Speakers = () => {
 
@@ -92,19 +94,19 @@ const Speakers = () => {
                 ))}
             </article>
 
-            {/* <div className="sub_heading flex_regular">
+            <div className="sub_heading flex_regular">
                 <div className='content'>OUR &nbsp; PERFORMERS</div>
             </div>
 
-            <article className="Speakers_Showcase">
+            <article className="Performer_Showcase flex_wrap_evenly">
 
                 {performerDB.map((eachMember) => (
-                    <div className="speaker_card flex_space_between" key={eachMember.id}>
-                        <div className="speaker_card_container">
-                            <div className="speaker_card_image background_image" style={{backgroundImage: `url(${eachMember.image})`}}></div>
-                            <div className="speaker_card_info flex_regular">
+                    <div className="performer_card flex_space_between" key={eachMember.id}>
+                        <div className="performer_card_container">
+                            <div className="performer_card_image background_image_contain" style={{backgroundImage: `url(${eachMember.image})`}}></div>
+                            <div className="performer_card_info flex_regular">
                                 <div>
-                                    <h3>SPEAKER</h3>
+                                    <h3>PERFORMER</h3>
                                     <h1>{eachMember.name}</h1>
                                     <h2>{eachMember.profession}</h2>
                                     <p>{eachMember.summary}</p>
@@ -114,7 +116,7 @@ const Speakers = () => {
                     </div>
                 ))}
 
-            </article> */}
+            </article>
 
             <Footer/>
         </Fragment>

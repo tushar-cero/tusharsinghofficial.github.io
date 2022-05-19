@@ -163,7 +163,7 @@
         font-size: 90px;
     }
 }
-@media (min-width: 840px) {
+@media (min-width: 860px) {
     .Landing .landing_heading {
         font-size: 140px;
     }

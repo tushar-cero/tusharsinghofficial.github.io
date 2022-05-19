@@ -2,16 +2,60 @@
     text-align: center;
     background-color: var(--red-background-alpha);
     transform: rotate(0deg);
-    height: 160px;
+    padding: 8px 0;
 }
 .sub_heading .content {
     text-align: center;
-    width: 200vw;
+    width: 90%;
     font-size: 72px;
     font-family: 'Monoton', cursive;
     padding: 36px 0;
-    background-color: var(--dark-background-alpha);
-    transform: rotate(-10deg);
+    background-color: var(--dark-background-beta);
+    transform: rotate(-2deg);
+}
+
+@media (max-width: 720px) {
+    .sub_heading {
+        padding: 6px 0;
+    }
+    .sub_heading .content {
+        font-size: 48px;
+        padding: 24px 0;
+    }
+}
+@media (max-width: 480px) {
+    .sub_heading {
+        padding: 2px 0;
+    }
+    .sub_heading .content {
+        font-size: 30px;
+        padding: 24px 0;
+    }
+}
+
+
+
+/* ----- SPEAKER'S SHOWCASE ----- */
+
+
+
+.Performer_Showcase {
+    padding: 100px 24px;
+    color: var(--text-color-alpha);
+}
+.Performer_Showcase .performer_card {
+    width: 480px;
+    min-height: 600px;
+    height: auto;
+    padding: 24px;
+    background: linear-gradient(180deg, rgba(46, 34, 171, 0) 40%, #E54C9C 100%);
+    border-radius: 24px;
+}
+.Performer_Showcase .performer_card .performer_card_image {
+    width: 100%;
+    height: 480px;
+    border-radius: 24px;
+    margin-bottom: 48px;
 }
 
 
@@ -41,33 +85,46 @@
     justify-content: center;
     align-items: center;
 }
-.Speakers_Showcase .speaker_card .speaker_card_container .background_image {
+.Speakers_Showcase .speaker_card .speaker_card_container .background_image,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info h1 {
     background-position: top;
 }
-.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_image {
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_image,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info h1 {
     border-radius: 24px 0 0 24px;
 }
-.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info {
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info h1 {
     padding: 24px 16px 16px 16px;
 }
-.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h1 {
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h1,
+.Performer_Showcase .performer_card .performer_card_container .performer_card_info h1 {
     font-size: 48px;
     text-transform: uppercase;
     font-weight: 300;
     padding: 0 0 16px 0;
 }
-.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h2 {
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h2,
+.Performer_Showcase .performer_card .performer_card_container .performer_card_info h2 {
     font-size: 20px;
     font-weight: 600;
     padding-bottom: 16px;
 }
-.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h3 {
+.Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h3,
+.Performer_Showcase .performer_card .performer_card_container .performer_card_info h3 {
     font-size: 14px;
     color: var(--text-color-primary);
 }
 
+
+
+/* ----- MEDIA QUERY ----- */
+
+
+
 @media (max-width: 860px) {
-    .Speakers_Showcase .speaker_card {
+    .Speakers_Showcase .speaker_card,
+    .Performer_Showcase .performer_card {
         max-width: 360px;
         height: auto;
     }
@@ -76,44 +133,56 @@
         grid-auto-flow: dense;
         grid-template-columns: 1fr;
     }
-    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_image {
+    .Performer_Showcase .performer_card .performer_card_container {
+        border-radius: 16px;
+    }
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_image,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_image {
         border-radius: 16px 16px 0 0;
         width: 100%;
         height: 300px;
     }
-    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h1 {
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h1,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info h1 {
         font-size: 36px;
         font-weight: 300;
         padding: 16px 0;
     }
-    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h2 {
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h2,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info h2 {
         font-size: 18px;
         padding-bottom: 16px;
     }
-    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info p {
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info p,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info p {
         font-size: 16px;
     }
 }
 
 @media (max-width: 600px) {
-    .Speakers_Showcase .speaker_card {
+    .Speakers_Showcase .speaker_card,
+    .Performer_Showcase .performer_card {
         padding: 16px;
     }
-    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_image {
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_image,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_image {
         border-radius: 16px 16px 0 0;
         width: 100%;
         height: 300px;
     }
-    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h1 {
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h1,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info h1 {
         font-size: 30px;
         font-weight: 300;
         padding: 16px 0;
     }
-    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h2 {
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info h2,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info h2 {
         font-size: 16px;
         padding-bottom: 16px;
     }
-    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info p {
+    .Speakers_Showcase .speaker_card .speaker_card_container .speaker_card_info p,
+    .Performer_Showcase .performer_card .performer_card_container .performer_card_info p {
         font-size: 14px;
     }
 }

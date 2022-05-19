@@ -74,6 +74,7 @@ main {
 	--text-color-alpha: #ffffff;
 	--text-color-tertiary: rgb(230, 230, 230);
 	--text-color-gamma: rgb(136, 136, 136);
+	--text-color-dark-alpha: #000;
 }
 
 

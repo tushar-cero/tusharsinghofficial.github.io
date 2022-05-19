@@ -9,8 +9,8 @@ const Landing = ({heading}) => {
                 <div className="landing_heading">{heading}</div>
             </div>
             <div className="landing_bottom_image background_image"></div>
-            <div class="area" >
-                <ul class="circles">
+            <div className="area" >
+                <ul className="circles">
                     <li></li>
                     <li></li>
                     <li></li>
