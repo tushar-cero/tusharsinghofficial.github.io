@@ -75,7 +75,7 @@ const Home = () => {
                 </div>
             </article>
 
-            {/* <article className="Home_Sponsors">
+            <article className="Home_Sponsors">
                 <div className="container">
                     <h1>OUR SPONSORS</h1>
                     <div className="sponsors_grid flex_wrap_evenly">
@@ -86,7 +86,7 @@ const Home = () => {
                         <div className="sponsors_grid_each sponsors_grid_5 background_image_contain"></div>
                     </div>
                 </div>
-            </article> */}
+            </article>
 
             <article className="Home_Venue background_image">
                 <div className="venue_container">
