@@ -84,6 +84,7 @@ const Home = () => {
                         <div className="sponsors_grid_each sponsors_grid_3 background_image_contain"></div>
                         <div className="sponsors_grid_each sponsors_grid_4 background_image_contain"></div>
                         <div className="sponsors_grid_each sponsors_grid_5 background_image_contain"></div>
+                        <div className="sponsors_grid_each sponsors_grid_6 background_image_contain"></div>
                     </div>
                 </div>
             </article>

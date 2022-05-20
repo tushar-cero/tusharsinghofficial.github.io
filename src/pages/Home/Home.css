@@ -308,6 +308,9 @@
 .Home_Sponsors .sponsors_grid .sponsors_grid_5 {
     background-image: url('../../assets/sponsors/WhatsApp\ Image\ 2022-05-20\ at\ 12.40.12\ PM.jpeg');
 }
+.Home_Sponsors .sponsors_grid .sponsors_grid_6 {
+    background-image: url('../../assets/sponsors/wecare.png');
+}
 
 /* @media (max-width: px) {
     .Home_Sponsors .sponsors_grid .sponsors_grid_each {
